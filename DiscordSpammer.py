@@ -3,7 +3,7 @@
 import pyautogui, time
 
 time.sleep(1)
-file_name = "beemovie"
+file_name = input("Whats the name of the file?: ")
 
 f = open(file_name, 'r')
 for word in f:
